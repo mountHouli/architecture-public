@@ -24,9 +24,8 @@ while true; do
     #Matches any string that begins with Y or y
     #!!Revisit: move Aaron Houlihan added aliases and functions into separate file
     [Yy]* )
-
-#!!Revisit:  This is a very unpretty way of checking to make sure I haven't already added this stuff to ~root/.bashrc
-if  [ $(grep -c "Aaron Houlihan added aliases and functions" ~root/.bashrc) -eq "0" ]; then
+      #!!Revisit:  This is a very unpretty way of checking to make sure I haven't already added this stuff to ~root/.bashrc
+      if  [ $(grep -c "Aaron Houlihan added aliases and functions" ~root/.bashrc) -eq "0" ]; then
 
 cat >> ~root/.bashrc << "EOLEOLEOLEOL"
 
@@ -57,8 +56,7 @@ alias gits='git status'
 
 EOLEOLEOLEOL
 
-fi
-
+      fi
       break
       ;;
     [Nn]* )
