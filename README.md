@@ -1,5 +1,4 @@
 # architecture-public
-Server architecture
 
 To pull down build.sh
 
