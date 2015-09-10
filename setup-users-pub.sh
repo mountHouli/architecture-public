@@ -1,1 +1,0 @@
-setup-users-pub.sh
