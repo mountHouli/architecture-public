@@ -31,6 +31,10 @@ cat >> ~root/.bashrc << "EOLEOLEOLEOL"
 
 #Aaron Houlihan added aliases and functions
 
+alias ls='ls --color=auto' #For Ubuntu and Red Had/CentOS
+# alias ls='ls -G'         #For Mac
+alias grep='grep --color=auto'
+
 alias l='ls -laF'
 alias lg='ls -laF | grep -i'
 alias sd='sudo nodemon'
