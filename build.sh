@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "starting `pwd`/build.sh"
+# !!TODO: Fix this
 echo "ztarting $0"
 
 #!!Revisit:  Git is not yet installed.  This won't work.
